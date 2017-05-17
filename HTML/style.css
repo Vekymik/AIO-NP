@@ -230,3 +230,64 @@ footer{
 	font-size:20px;
 	
 }
+figure {
+	float: left;
+	width: 500px;
+	margin: 20px;
+	
+	
+}
+
+figcaption {
+	font-size: 20px;
+	width: 75%;
+}
+figure#right {
+
+	float:right;
+}
+
+@media only screen and (max-width: 1080px) {
+    nav li {
+	display: block;
+	
+	margin-left: 6%;}
+	div#wrapper {
+	width: 90%;
+	margin: 0 auto;}
+		div#wrapperhead {
+			width: 90%;
+	margin: 0 auto;
+			
+		}
+	nav ul {
+		text-align: center;
+		width:100%;
+	}
+	header h1 {
+	font-size:55px;
+		padding-top: 50px;
+	}
+
+}
+@media only screen and (max-width: 680px) {
+	
+    nav li {
+	display: block;
+	
+	margin-left: 6%;}
+	nav ul {
+		text-align: center;
+		width:600px;
+	}
+	div#wrapper {
+	width: 600px;
+	margin: 0 auto;
+	}
+header h1 {
+	font-size:55px;
+	padding-top: 50px;
+	}
+}
+
+
